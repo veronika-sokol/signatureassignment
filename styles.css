@@ -34,7 +34,6 @@ h1 {
     color: antiquewhite;
     align-content: center;
 }
-
 h2 {
     font-size: 4.5em;
     font-style: italic;
@@ -43,6 +42,9 @@ h2 {
     padding-left: 1em;
     padding-right: 1em;
     text-align:center
+}
+h3 {
+  font-size: 2em;
 }
 .image-right {
   float: right;
@@ -165,6 +167,58 @@ tr:nth-child(odd) {background-color: antiquewhite}
   color: antiquewhite;
   margin-bottom: 10px;
 }
+input[type=text], textarea {
+  padding: 12px;
+  font-family: Garamond, Garamond, serif;
+  font-size: 1em;
+  font-style: italic;
+  border: 1px solid saddlebrown;
+  color: saddlebrown;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email], textarea {
+  padding: 12px;
+  font-family: Garamond, Garamond, serif;
+  font-size: 1em;
+  font-style: italic;
+  border: 1px solid saddlebrown;
+  color: saddlebrown;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: saddlebrown;
+  font-family: Garamond, Garamond, serif;
+  font-size: 1.5em;
+  font-style: italic;
+  color: antiquewhite;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: sandybrown;
+}
+.container {
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 5px;
+}
+.foo{
+width:100%;
+}
+img[src="map.png"] {
+  width: 10px;
+  float: right;
+}
 footer {
   display: flex;
   align-items: center;
@@ -174,7 +228,6 @@ footer {
 }
 footer {
   text-align: left;
-  
   padding: 15px 0;
   font-size: 2em;
   padding-left: 50px;
