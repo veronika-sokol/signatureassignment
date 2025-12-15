@@ -29,13 +29,13 @@ header a:visited {text-decoration: none;
 	color: antiquewhite
 }
 h1 {
-  font-size: 6em;
+  font-size: 4em;
     font-style: italic;
     color: antiquewhite;
     align-content: center;
 }
 h2 {
-    font-size: 4.5em;
+    font-size: 3em;
     font-style: italic;
     color: saddlebrown;
     background-color: antiquewhite;
@@ -50,8 +50,24 @@ h3 {
   float: right;
   margin-right: 20px;
 }
+h4 {
+  font-size: 2em;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+h5 {
+  font-size: 1.5em;
+  color: saddlebrown;
+  background-color: antiquewhite;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+}
 p {
-    font-size: 2.5em;
+    font-size: 2em;
     color: saddlebrown;
     background-color: antiquewhite;
     line-height: 2;
@@ -76,7 +92,7 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: oblique;
   padding: 15px 25px;
   color: antiquewhite;
@@ -193,9 +209,10 @@ input[type=email], textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-input[type=submit] {
+.button {
   background-color: saddlebrown;
   font-family: Garamond, Garamond, serif;
+  align-content: center;
   font-size: 1.5em;
   font-style: italic;
   color: antiquewhite;
@@ -212,12 +229,52 @@ input[type=submit]:hover {
   background-color: antiquewhite;
   padding: 5px;
 }
-.foo{
-width:100%;
+.container1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  padding-left: 15em;
+  padding-right: 15em;
+  padding-bottom: 30px;
 }
-img[src="map.png"] {
-  width: 10px;
+.container2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  padding-left: 15em;
+  padding-right: 15em;
+  padding-bottom: 30px;
+}
+#my-sourdough{  width: 300px;
+  float: left;
+  text-align: left;
+  padding-right: 140px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+#my-map {
+  width: 400px;
   float: right;
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 140px;
+  padding-bottom: 10px;
+}
+#my-stars {
+  display: block;
+  width: 200px;
+  align-content: center;
+  text-align:justify;
+  padding-top: 15px;
+  margin: auto;
+  background-color: antiquewhite
+}
+ul.ul{
+ list-style-image: url(images/brown%20star.jpg)
 }
 footer {
   display: flex;
